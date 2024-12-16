@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bc5e1ba201e4a61b53195e4b78d0c0, type: 3}
   m_Name: loaf
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
-  price: 0
+  image: {fileID: 21300000, guid: 1ed4791cc56324ed794e0ca20065a7f0, type: 3}
+  price: 100
