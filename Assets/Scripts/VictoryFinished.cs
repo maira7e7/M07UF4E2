@@ -6,7 +6,8 @@ using Cinemachine;
 
 public class VictoryFinished : StateMachineBehaviour 
 {
-  override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,int layerIndex)
+  private const bool V = true;
+  public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo,int layerIndex)
   {
     animator.gameObject.transform.parent.gameObject.GetComponent<PlayerMover>().canMove = true;
     Camera.main.GetComponent<CinemachineBrain>().enabled = false;
