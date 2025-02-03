@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     public int cameraInvert = 1;
     public float sensibilityX = 1;
     public float sensibilityY = 1;
-    public bool enabled = true;
+    new public bool enabled = true;
 
     private float _currentRotationAngle;
     private float _currentHeight;

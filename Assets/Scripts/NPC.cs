@@ -7,7 +7,7 @@ public class NPC : MonoBehaviour
 {
     public CinemachineVirtualCamera VCamDisable;
     public CinemachineVirtualCamera VCamEnable;
-    //public GameObject UI;
+    public GameObject UI;
     private PlayerMover _playerMover;
     private bool _canBuy = true;
     private float time = 1f;
@@ -18,10 +18,10 @@ public class NPC : MonoBehaviour
             VCamDisable.gameObject.SetActive(false);
             VCamDisable.gameObject.SetActive(true);
             Camera.main.GetComponent<CinemachineBrain>().enabled = true;
-            Camera.main.cullingMask &= ~(1 << 8); //Quita la capa 8
+            Camera.main.cullingMask &= ~(1 << 9); 
             _playerMover = other.GetComponent<PlayerMover>();
             _playerMover.canMove = false;
-            //UI.SetActive(true);
+            UI.SetActive(true);
             _canBuy = false;
         }
     }
@@ -38,7 +38,7 @@ public class NPC : MonoBehaviour
         VCamDisable.gameObject.SetActive(false);
         Camera.main.GetComponent<CinemachineBrain>().enabled = false;
         Camera.main.cullingMask |= (1 << 8);
-        //UI.SetActive(false);
+        UI.SetActive(false);
     }
 
     private IEnumerator WaitForABit()
