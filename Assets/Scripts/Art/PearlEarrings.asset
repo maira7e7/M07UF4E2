@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bd83cd8f41544c99c0572cf9b8ba74, type: 3}
   m_Name: PearlEarrings
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: aee2cf8fa7213417da769ff06fa420be, type: 3}
-  image2: {fileID: 21300000, guid: 575e765fe46f042239aa688a5157c803, type: 3}
-  isFakeFirst: 1
+  Sprite1: {fileID: 21300000, guid: aee2cf8fa7213417da769ff06fa420be, type: 3}
+  Sprite2: {fileID: 21300000, guid: 575e765fe46f042239aa688a5157c803, type: 3}
+  isFirstImageFake: 1

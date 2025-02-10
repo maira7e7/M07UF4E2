@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bd83cd8f41544c99c0572cf9b8ba74, type: 3}
   m_Name: Discobulus
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: 1385a8463691440cc87039a9a913fbd2, type: 3}
-  image2: {fileID: 21300000, guid: e5d8f188a64a0495298d13ee05eb8d0f, type: 3}
-  isFakeFirst: 1
+  Sprite1: {fileID: 21300000, guid: 1385a8463691440cc87039a9a913fbd2, type: 3}
+  Sprite2: {fileID: 21300000, guid: e5d8f188a64a0495298d13ee05eb8d0f, type: 3}
+  isFirstImageFake: 1

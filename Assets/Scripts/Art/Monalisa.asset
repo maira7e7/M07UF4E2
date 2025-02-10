@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bd83cd8f41544c99c0572cf9b8ba74, type: 3}
   m_Name: Monalisa
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: b0c25eff19e50470a959d468a8284f8f, type: 3}
-  image2: {fileID: 21300000, guid: 8c64476bc533e4a739c170abc444c3b4, type: 3}
-  isFakeFirst: 0
+  Sprite1: {fileID: 21300000, guid: b0c25eff19e50470a959d468a8284f8f, type: 3}
+  Sprite2: {fileID: 21300000, guid: 8c64476bc533e4a739c170abc444c3b4, type: 3}
+  isFirstImageFake: 0
